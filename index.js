@@ -10,7 +10,7 @@ function consume(a, b, cb) {
   return cb(a, b);
 }
 
-/* Step 2: Create several functions to callback with consume();
+/* Step 2: Create several functions to callback with consume();test
  * Create a function named add that returns the sum of two numbers
  * Create a function named multiply that returns the product of two numbers
  * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
